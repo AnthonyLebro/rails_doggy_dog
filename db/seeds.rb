@@ -11,21 +11,21 @@ Dog.destroy_all
 City.destroy_all
 
 10.times do |i|
-  City.create(name:Faker::JapaneseMedia::Naruto.village)
+  City.create(city:Faker::JapaneseMedia::Naruto.village)
   puts "#{i+1} cities created"
 end
 
 puts "*"*20
 
 10.times do |i|
-  Doggsiter.create(first_name:Faker::Games::SuperMario.character,last_name:Faker::JapaneseMedia::DragonBall.character,,city_id:City.all.sample.id)
+  Doggsiter.create(first_name:Faker::Games::SuperMario.character,last_name:Faker::JapaneseMedia::DragonBall.character,city_id:City.all.sample.id)
   puts "#{i+1} dogsitters created"
 end
 
 puts "*"*20
 
 10.times do |i|
-  Stroll.create(date:Faker::Date.between(from: 300.days.ago, to: Date.today),dogsitter_id:Doggsiter.all.sample.id)
+  Stroll.create(date:Faker::Date.between(from: 300.days.ago, to: Date.today),doggsiter_id:Doggsiter.all.sample.id)
   puts "#{i+1} strolls created"
 end
 
