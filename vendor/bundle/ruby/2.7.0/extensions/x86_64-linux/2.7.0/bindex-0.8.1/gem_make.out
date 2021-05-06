@@ -1,0 +1,15 @@
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/antho/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/antho/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210506-59003-1lvopfp.rb extconf.rb
+creating Makefile
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20210506-59003-32oc0e/skiptrace/internal

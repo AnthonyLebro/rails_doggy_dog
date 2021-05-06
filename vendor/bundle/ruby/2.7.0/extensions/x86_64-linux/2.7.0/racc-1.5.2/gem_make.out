@@ -1,0 +1,16 @@
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+/home/antho/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/antho/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210506-59003-15bzfz.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/antho/Bureau/Gossip/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cparse.so ./.gem.20210506-59003-1w3eg6v/racc
