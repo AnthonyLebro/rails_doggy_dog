@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Rails Doggy Dog
 
-Things you may want to cover:
+En cours de "Bizness Growth Money Maker", on t'avait demandé de créer une entreprise à fort potentiel. À l'époque tu t'étais dit que ce serait une chouette idée de faire une plateforme où des personnes pourraient promener les chiens des autres, en échange de cash-money.
 
-* Ruby version
+C'est dingue comme idée : ça va mettre tous les VC aux abois. Allez, on le fait !
 
-* System dependencies
 
-* Configuration
+### Tables
 
-* Database creation
+Dogs
+Dogsitters
+Cities
+Strolls
 
-* Database initialization
+### Pour test
 
-* How to run the test suite
+Ouvrir le dossier
+Faire
+ 
+Bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+Lancer
+rails db:seed
 
-* Deployment instructions
-
-* ...
+Et lancer la console rails pour test
+rails console
